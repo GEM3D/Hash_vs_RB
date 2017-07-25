@@ -1,0 +1,630 @@
+desc: (none)
+cmd: ./bin/amrGem input/bunny.stl
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=3473987
+mem_heap_B=140532
+mem_heap_extra_B=20
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=4049173
+mem_heap_B=162266
+mem_heap_extra_B=246
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=4829087
+mem_heap_B=199130
+mem_heap_extra_B=246
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=5868582
+mem_heap_B=248282
+mem_heap_extra_B=246
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=7910394
+mem_heap_B=444890
+mem_heap_extra_B=254
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=7947331
+mem_heap_B=346586
+mem_heap_extra_B=246
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=12031059
+mem_heap_B=739802
+mem_heap_extra_B=254
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=12104860
+mem_heap_B=543194
+mem_heap_extra_B=246
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=20272118
+mem_heap_B=1329626
+mem_heap_extra_B=254
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=20419647
+mem_heap_B=936410
+mem_heap_extra_B=246
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=36753933
+mem_heap_B=2509274
+mem_heap_extra_B=254
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=37048918
+mem_heap_B=1722842
+mem_heap_extra_B=246
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=69717404
+mem_heap_B=4868570
+mem_heap_extra_B=254
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=70307301
+mem_heap_B=3295706
+mem_heap_extra_B=246
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=135644166
+mem_heap_B=9587162
+mem_heap_extra_B=4286
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=136823887
+mem_heap_B=9587162
+mem_heap_extra_B=4286
+mem_stacks_B=0
+heap_tree=detailed
+n3: 9587162 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 9437184 0x40C0F9: void std::vector<stl::triangle, std::allocator<stl::triangle> >::_M_emplace_back_aux<stl::triangle>(stl::triangle&&) (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+  n1: 9437184 0x40B3EB: stl::parse_stl(std::string const&) (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+   n1: 9437184 0x40B702: readSTLGeom(int, char**, float**, int*, float const*) (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+    n0: 9437184 0x40D0B3: main (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+ n1: 140532 0x36B88EB641: monstartup (in /lib64/libc-2.12.so)
+  n1: 140532 0x40749F: __gmon_start__ (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+   n1: 140532 0x53FFA50: ??? (in /cm/shared/apps/gcc/4.8.1/lib64/libgcc_s.so.1)
+    n1: 140532 0x7FEFFF706: ???
+     n1: 140532 0x706E69006D654770: ???
+      n1: 140532 0x796E6E75622F7473: ???
+       n1: 140532 0x4C5043006C74732C: ???
+        n1: 140532 0x554C434E495F5353: ???
+         n1: 140532 0x3D485441505F4542: ???
+          n1: 140532 0x726168732F6D632D: ???
+           n1: 140532 0x2F737070612F6463: ???
+            n1: 140532 0x632F6E61746C6F78: ???
+             n1: 140532 0x706F2F3537616473: ???
+              n1: 140532 0x2E322D69706D6E63: ???
+               n1: 140532 0x2D6363672F312E2E: ???
+                n1: 140532 0x2E332F312E382E32: ???
+                 n1: 140532 0x6C636E692F332E36: ???
+                  n1: 140532 0x55444F4D00656473: ???
+                   n1: 140532 0x49535245565F454A: ???
+                    n1: 140532 0x4B434154535F4E4D: ???
+                     n1: 140532 0x30312E322E333B: ???
+                      n1: 140532 0x5441505F41445541: ???
+                       n1: 140532 0x68732F6D632F3D46: ???
+                        n1: 140532 0x7070612F6465725F: ???
+                         n1: 140532 0x3537616475632F71: ???
+                          n1: 140532 0x74696B6C6F6F742D: ???
+                           n1: 140532 0x5441504E414D002D: ???
+                            n1: 140532 0x68732F6D632F3D46: ???
+                             n1: 140532 0x7070612F6465725F: ???
+                              n0: 140532 0x2F6D72756C732F71: ???
+ n0: 9446 in 13 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=17
+#-----------
+time=136823887
+mem_heap_B=6441434
+mem_heap_extra_B=4278
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=183126561
+mem_heap_B=6433242
+mem_heap_extra_B=4270
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=183142423
+mem_heap_B=10692826
+mem_heap_extra_B=7926
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=197089528
+mem_heap_B=11757874
+mem_heap_extra_B=7942
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=203138276
+mem_heap_B=11757874
+mem_heap_extra_B=7942
+mem_stacks_B=0
+heap_tree=peak
+n5: 11757874 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 6291456 0x40C0F9: void std::vector<stl::triangle, std::allocator<stl::triangle> >::_M_emplace_back_aux<stl::triangle>(stl::triangle&&) (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+  n1: 6291456 0x40B3EB: stl::parse_stl(std::string const&) (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+   n1: 6291456 0x40B702: readSTLGeom(int, char**, float**, int*, float const*) (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+    n0: 6291456 0x40D0B3: main (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+ n1: 4260192 0x40BEF6: readSTLGeom(int, char**, float**, int*, float const*) (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+  n0: 4260192 0x40D0B3: main (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+ n1: 1065048 0x40BC95: readSTLGeom(int, char**, float**, int*, float const*) (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+  n0: 1065048 0x40D0B3: main (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+ n1: 140532 0x36B88EB641: monstartup (in /lib64/libc-2.12.so)
+  n1: 140532 0x40749F: __gmon_start__ (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+   n1: 140532 0x53FFA50: ??? (in /cm/shared/apps/gcc/4.8.1/lib64/libgcc_s.so.1)
+    n1: 140532 0x7FEFFF706: ???
+     n1: 140532 0x706E69006D654770: ???
+      n1: 140532 0x796E6E75622F7473: ???
+       n1: 140532 0x4C5043006C74732C: ???
+        n1: 140532 0x554C434E495F5353: ???
+         n1: 140532 0x3D485441505F4542: ???
+          n1: 140532 0x726168732F6D632D: ???
+           n1: 140532 0x2F737070612F6463: ???
+            n1: 140532 0x632F6E61746C6F78: ???
+             n1: 140532 0x706F2F3537616473: ???
+              n1: 140532 0x2E322D69706D6E63: ???
+               n1: 140532 0x2D6363672F312E2E: ???
+                n1: 140532 0x2E332F312E382E32: ???
+                 n1: 140532 0x6C636E692F332E36: ???
+                  n1: 140532 0x55444F4D00656473: ???
+                   n1: 140532 0x49535245565F454A: ???
+                    n1: 140532 0x4B434154535F4E4D: ???
+                     n1: 140532 0x30312E322E333B: ???
+                      n1: 140532 0x5441505F41445541: ???
+                       n1: 140532 0x68732F6D632F3D46: ???
+                        n1: 140532 0x7070612F6465725F: ???
+                         n1: 140532 0x3537616475632F71: ???
+                          n1: 140532 0x74696B6C6F6F742D: ???
+                           n1: 140532 0x5441504E414D002D: ???
+                            n1: 140532 0x68732F6D632F3D46: ???
+                             n1: 140532 0x7070612F6465725F: ???
+                              n0: 140532 0x2F6D72756C732F71: ???
+ n0: 646 in 13 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=22
+#-----------
+time=204295464
+mem_heap_B=1208404
+mem_heap_extra_B=1212
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=312335726
+mem_heap_B=1208428
+mem_heap_extra_B=1228
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1208428 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1065048 0x40BC95: readSTLGeom(int, char**, float**, int*, float const*) (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+  n0: 1065048 0x40D0B3: main (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+ n1: 140532 0x36B88EB641: monstartup (in /lib64/libc-2.12.so)
+  n1: 140532 0x40749F: __gmon_start__ (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+   n1: 140532 0x53FFA50: ??? (in /cm/shared/apps/gcc/4.8.1/lib64/libgcc_s.so.1)
+    n1: 140532 0x7FEFFF706: ???
+     n1: 140532 0x706E69006D654770: ???
+      n1: 140532 0x796E6E75622F7473: ???
+       n1: 140532 0x4C5043006C74732C: ???
+        n1: 140532 0x554C434E495F5353: ???
+         n1: 140532 0x3D485441505F4542: ???
+          n1: 140532 0x726168732F6D632D: ???
+           n1: 140532 0x2F737070612F6463: ???
+            n1: 140532 0x632F6E61746C6F78: ???
+             n1: 140532 0x706F2F3537616473: ???
+              n1: 140532 0x2E322D69706D6E63: ???
+               n1: 140532 0x2D6363672F312E2E: ???
+                n1: 140532 0x2E332F312E382E32: ???
+                 n1: 140532 0x6C636E692F332E36: ???
+                  n1: 140532 0x55444F4D00656473: ???
+                   n1: 140532 0x49535245565F454A: ???
+                    n1: 140532 0x4B434154535F4E4D: ???
+                     n1: 140532 0x30312E322E333B: ???
+                      n1: 140532 0x5441505F41445541: ???
+                       n1: 140532 0x68732F6D632F3D46: ???
+                        n1: 140532 0x7070612F6465725F: ???
+                         n1: 140532 0x3537616475632F71: ???
+                          n1: 140532 0x74696B6C6F6F742D: ???
+                           n1: 140532 0x5441504E414D002D: ???
+                            n1: 140532 0x68732F6D632F3D46: ???
+                             n1: 140532 0x7070612F6465725F: ???
+                              n0: 140532 0x2F6D72756C732F71: ???
+ n0: 2848 in 17 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=24
+#-----------
+time=312377739
+mem_heap_B=1210564
+mem_heap_extra_B=2108
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=493687935
+mem_heap_B=1210692
+mem_heap_extra_B=2116
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=493688057
+mem_heap_B=1210628
+mem_heap_extra_B=2108
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=524787894
+mem_heap_B=1210652
+mem_heap_extra_B=2124
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1210652 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1065048 0x40BC95: readSTLGeom(int, char**, float**, int*, float const*) (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+  n0: 1065048 0x40D0B3: main (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+ n1: 140532 0x36B88EB641: monstartup (in /lib64/libc-2.12.so)
+  n1: 140532 0x40749F: __gmon_start__ (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+   n1: 140532 0x53FFA50: ??? (in /cm/shared/apps/gcc/4.8.1/lib64/libgcc_s.so.1)
+    n1: 140532 0x7FEFFF706: ???
+     n1: 140532 0x706E69006D654770: ???
+      n1: 140532 0x796E6E75622F7473: ???
+       n1: 140532 0x4C5043006C74732C: ???
+        n1: 140532 0x554C434E495F5353: ???
+         n1: 140532 0x3D485441505F4542: ???
+          n1: 140532 0x726168732F6D632D: ???
+           n1: 140532 0x2F737070612F6463: ???
+            n1: 140532 0x632F6E61746C6F78: ???
+             n1: 140532 0x706F2F3537616473: ???
+              n1: 140532 0x2E322D69706D6E63: ???
+               n1: 140532 0x2D6363672F312E2E: ???
+                n1: 140532 0x2E332F312E382E32: ???
+                 n1: 140532 0x6C636E692F332E36: ???
+                  n1: 140532 0x55444F4D00656473: ???
+                   n1: 140532 0x49535245565F454A: ???
+                    n1: 140532 0x4B434154535F4E4D: ???
+                     n1: 140532 0x30312E322E333B: ???
+                      n1: 140532 0x5441505F41445541: ???
+                       n1: 140532 0x68732F6D632F3D46: ???
+                        n1: 140532 0x7070612F6465725F: ???
+                         n1: 140532 0x3537616475632F71: ???
+                          n1: 140532 0x74696B6C6F6F742D: ???
+                           n1: 140532 0x5441504E414D002D: ???
+                            n1: 140532 0x68732F6D632F3D46: ???
+                             n1: 140532 0x7070612F6465725F: ???
+                              n0: 140532 0x2F6D72756C732F71: ???
+ n0: 5072 in 17 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=28
+#-----------
+time=524873865
+mem_heap_B=1214996
+mem_heap_extra_B=3900
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=688486387
+mem_heap_B=1215252
+mem_heap_extra_B=3908
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=688486573
+mem_heap_B=1215124
+mem_heap_extra_B=3900
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=852622631
+mem_heap_B=1215636
+mem_heap_extra_B=3908
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=852622945
+mem_heap_B=1215380
+mem_heap_extra_B=3900
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=897639930
+mem_heap_B=1216404
+mem_heap_extra_B=3908
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=898728527
+mem_heap_B=1241668
+mem_heap_extra_B=13980
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=2143643469
+mem_heap_B=1243716
+mem_heap_extra_B=13988
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=2143644551
+mem_heap_B=1242692
+mem_heap_extra_B=13980
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=2325810134
+mem_heap_B=1242716
+mem_heap_extra_B=13996
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=2326891897
+mem_heap_B=1294628
+mem_heap_extra_B=37964
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=3249974558
+mem_heap_B=1298724
+mem_heap_extra_B=37972
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=3249976664
+mem_heap_B=1296676
+mem_heap_extra_B=37964
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=5313230981
+mem_heap_B=1304868
+mem_heap_extra_B=37972
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=5313235135
+mem_heap_B=1300772
+mem_heap_extra_B=37964
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=5985826263
+mem_heap_B=1300796
+mem_heap_extra_B=37980
+mem_stacks_B=0
+heap_tree=detailed
+n5: 1300796 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1065048 0x40BC95: readSTLGeom(int, char**, float**, int*, float const*) (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+  n0: 1065048 0x40D0B3: main (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+ n1: 140532 0x36B88EB641: monstartup (in /lib64/libc-2.12.so)
+  n1: 140532 0x40749F: __gmon_start__ (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+   n1: 140532 0x53FFA50: ??? (in /cm/shared/apps/gcc/4.8.1/lib64/libgcc_s.so.1)
+    n1: 140532 0x7FEFFF706: ???
+     n1: 140532 0x706E69006D654770: ???
+      n1: 140532 0x796E6E75622F7473: ???
+       n1: 140532 0x4C5043006C74732C: ???
+        n1: 140532 0x554C434E495F5353: ???
+         n1: 140532 0x3D485441505F4542: ???
+          n1: 140532 0x726168732F6D632D: ???
+           n1: 140532 0x2F737070612F6463: ???
+            n1: 140532 0x632F6E61746C6F78: ???
+             n1: 140532 0x706F2F3537616473: ???
+              n1: 140532 0x2E322D69706D6E63: ???
+               n1: 140532 0x2D6363672F312E2E: ???
+                n1: 140532 0x2E332F312E382E32: ???
+                 n1: 140532 0x6C636E692F332E36: ???
+                  n1: 140532 0x55444F4D00656473: ???
+                   n1: 140532 0x49535245565F454A: ???
+                    n1: 140532 0x4B434154535F4E4D: ???
+                     n1: 140532 0x30312E322E333B: ???
+                      n1: 140532 0x5441505F41445541: ???
+                       n1: 140532 0x68732F6D632F3D46: ???
+                        n1: 140532 0x7070612F6465725F: ???
+                         n1: 140532 0x3537616475632F71: ???
+                          n1: 140532 0x74696B6C6F6F742D: ???
+                           n1: 140532 0x5441504E414D002D: ???
+                            n1: 140532 0x68732F6D632F3D46: ???
+                             n1: 140532 0x7070612F6465725F: ???
+                              n0: 140532 0x2F6D72756C732F71: ???
+ n1: 56664 0x4131DD: std::pair<std::__detail::_Node_iterator<std::pair<std::bitset<64ul> const, unsigned int*>, false, false>, bool> std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, unsigned int*>, std::allocator<std::pair<std::bitset<64ul> const, unsigned int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, std::hash<std::bitset<64ul> >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_insert<std::pair<std::bitset<64ul> const, unsigned int*> const&>(std::pair<std::bitset<64ul> const, unsigned int*> const&, std::integral_constant<bool, true>) (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+  n0: 56664 in 8 places, all below massif's threshold (01.00%)
+ n1: 29912 0x412F40: std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, unsigned int*>, std::allocator<std::pair<std::bitset<64ul> const, unsigned int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, std::hash<std::bitset<64ul> >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_rehash(unsigned long, unsigned long const&) (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+  n1: 29912 0x413091: std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, unsigned int*>, std::allocator<std::pair<std::bitset<64ul> const, unsigned int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, std::hash<std::bitset<64ul> >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<64ul> const, unsigned int*>, false>*) (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+   n2: 29912 0x413210: std::pair<std::__detail::_Node_iterator<std::pair<std::bitset<64ul> const, unsigned int*>, false, false>, bool> std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, unsigned int*>, std::allocator<std::pair<std::bitset<64ul> const, unsigned int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, std::hash<std::bitset<64ul> >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_insert<std::pair<std::bitset<64ul> const, unsigned int*> const&>(std::pair<std::bitset<64ul> const, unsigned int*> const&, std::integral_constant<bool, true>) (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+    n1: 29912 0x41363E: Tree<64ul, unsigned int>::refine(std::bitset<64ul>) (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+     n1: 29912 0x41382B: Tree<64ul, unsigned int>::refineRefineList() (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+      n0: 29912 0x40D15A: main (in /home/jhasbestan/Morton_CPU_v2/bin/amrGem)
+    n0: 0 in 4 places, all below massif's threshold (01.00%)
+ n0: 8640 in 15 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=44
+#-----------
+time=5986584518
+mem_heap_B=1327772
+mem_heap_extra_B=55964
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=5987622334
+mem_heap_B=1389148
+mem_heap_extra_B=76732
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=5988695918
+mem_heap_B=1428748
+mem_heap_extra_B=103132
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=5989407691
+mem_heap_B=1453948
+mem_heap_extra_B=119932
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=5990251071
+mem_heap_B=1530748
+mem_heap_extra_B=130300
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=5991091248
+mem_heap_B=1205892
+mem_heap_extra_B=116
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=5991091318
+mem_heap_B=1205804
+mem_heap_extra_B=100
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=5991091417
+mem_heap_B=1205780
+mem_heap_extra_B=84
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=5991091488
+mem_heap_B=1205692
+mem_heap_extra_B=68
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=5991091587
+mem_heap_B=1205668
+mem_heap_extra_B=52
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=5991091658
+mem_heap_B=1205580
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty

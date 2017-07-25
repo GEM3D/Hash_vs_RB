@@ -1,0 +1,554 @@
+The system is: Linux - 2.6.32-431.29.2.el6.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /cm/shared/apps/gcc/4.8.1/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jhasbestan/Map_Serial/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /cm/shared/apps/gcc/4.8.1/bin/g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jhasbestan/Map_Serial/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9321d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9321d.dir/build.make CMakeFiles/cmTC_9321d.dir/build
+gmake[1]: Entering directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9321d.dir/testCCompiler.c.o
+/cm/shared/apps/gcc/4.8.1/bin/gcc     -o CMakeFiles/cmTC_9321d.dir/testCCompiler.c.o   -c /home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9321d
+/cm/shared/apps/cmake/gcc/64/3.5.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9321d.dir/link.txt --verbose=1
+/cm/shared/apps/gcc/4.8.1/bin/gcc      -L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib  CMakeFiles/cmTC_9321d.dir/testCCompiler.c.o  -o cmTC_9321d -rdynamic 
+gmake[1]: Leaving directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f6984/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f6984.dir/build.make CMakeFiles/cmTC_f6984.dir/build
+gmake[1]: Entering directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6984.dir/CMakeCCompilerABI.c.o
+/cm/shared/apps/gcc/4.8.1/bin/gcc     -o CMakeFiles/cmTC_f6984.dir/CMakeCCompilerABI.c.o   -c /cm/shared/apps/cmake/gcc/64/3.5.1/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f6984
+/cm/shared/apps/cmake/gcc/64/3.5.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6984.dir/link.txt --verbose=1
+/cm/shared/apps/gcc/4.8.1/bin/gcc      -L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib -v CMakeFiles/cmTC_f6984.dir/CMakeCCompilerABI.c.o  -o cmTC_f6984 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/cm/shared/apps/gcc/4.8.1/bin/gcc
+COLLECT_LTO_WRAPPER=/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../gcc-4.8.1/configure --prefix=/cm/shared/apps/gcc/4.8.1 --enable-languages=c,c++,fortran --with-gmp-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-gmp --with-gmp-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-gmp --with-mpc-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpc/src --with-mpc-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpc/src/.libs --with-mpfr-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpfr/src --with-mpfr-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpfr/src/.libs
+Thread model: posix
+gcc version 4.8.1 (GCC) 
+COMPILER_PATH=/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/cm/shared/apps/slurm/2.6.7/lib64/../lib64/:/cm/shared/apps/cuda75/toolkit//lib64/../lib64/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cm/shared/apps/slurm/2.6.7/lib64/slurm/:/cm/shared/apps/slurm/2.6.7/lib64/:/cm/shared/apps/cudpp/cuda75/2.3//lib/:/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib/:/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib/:/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib/:/cm/shared/apps/cuda75/toolkit//lib64/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib' '-v' '-o' 'cmTC_f6984' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f6984 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtbegin.o -L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib -L/cm/shared/apps/slurm/2.6.7/lib64/../lib64 -L/cm/shared/apps/cuda75/toolkit//lib64/../lib64 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cm/shared/apps/slurm/2.6.7/lib64/slurm -L/cm/shared/apps/slurm/2.6.7/lib64 -L/cm/shared/apps/cudpp/cuda75/2.3//lib -L/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib -L/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib -L/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib -L/cm/shared/apps/cuda75/toolkit//lib64 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../.. CMakeFiles/cmTC_f6984.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_f6984/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_f6984.dir/build.make CMakeFiles/cmTC_f6984.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f6984.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/cm/shared/apps/gcc/4.8.1/bin/gcc     -o CMakeFiles/cmTC_f6984.dir/CMakeCCompilerABI.c.o   -c /cm/shared/apps/cmake/gcc/64/3.5.1/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f6984]
+  ignore line: [/cm/shared/apps/cmake/gcc/64/3.5.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6984.dir/link.txt --verbose=1]
+  ignore line: [/cm/shared/apps/gcc/4.8.1/bin/gcc      -L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib -v CMakeFiles/cmTC_f6984.dir/CMakeCCompilerABI.c.o  -o cmTC_f6984 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/cm/shared/apps/gcc/4.8.1/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../gcc-4.8.1/configure --prefix=/cm/shared/apps/gcc/4.8.1 --enable-languages=c,c++,fortran --with-gmp-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-gmp --with-gmp-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-gmp --with-mpc-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpc/src --with-mpc-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpc/src/.libs --with-mpfr-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpfr/src --with-mpfr-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpfr/src/.libs]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 (GCC) ]
+  ignore line: [COMPILER_PATH=/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/cm/shared/apps/slurm/2.6.7/lib64/../lib64/:/cm/shared/apps/cuda75/toolkit//lib64/../lib64/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cm/shared/apps/slurm/2.6.7/lib64/slurm/:/cm/shared/apps/slurm/2.6.7/lib64/:/cm/shared/apps/cudpp/cuda75/2.3//lib/:/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib/:/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib/:/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib/:/cm/shared/apps/cuda75/toolkit//lib64/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib' '-v' '-o' 'cmTC_f6984' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f6984 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtbegin.o -L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib -L/cm/shared/apps/slurm/2.6.7/lib64/../lib64 -L/cm/shared/apps/cuda75/toolkit//lib64/../lib64 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cm/shared/apps/slurm/2.6.7/lib64/slurm -L/cm/shared/apps/slurm/2.6.7/lib64 -L/cm/shared/apps/cudpp/cuda75/2.3//lib -L/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib -L/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib -L/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib -L/cm/shared/apps/cuda75/toolkit//lib64 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../.. CMakeFiles/cmTC_f6984.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f6984] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtbegin.o] ==> ignore
+    arg [-L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib] ==> dir [/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib]
+    arg [-L/cm/shared/apps/slurm/2.6.7/lib64/../lib64] ==> dir [/cm/shared/apps/slurm/2.6.7/lib64/../lib64]
+    arg [-L/cm/shared/apps/cuda75/toolkit//lib64/../lib64] ==> dir [/cm/shared/apps/cuda75/toolkit//lib64/../lib64]
+    arg [-L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1] ==> dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1]
+    arg [-L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64] ==> dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/cm/shared/apps/slurm/2.6.7/lib64/slurm] ==> dir [/cm/shared/apps/slurm/2.6.7/lib64/slurm]
+    arg [-L/cm/shared/apps/slurm/2.6.7/lib64] ==> dir [/cm/shared/apps/slurm/2.6.7/lib64]
+    arg [-L/cm/shared/apps/cudpp/cuda75/2.3//lib] ==> dir [/cm/shared/apps/cudpp/cuda75/2.3//lib]
+    arg [-L/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib] ==> dir [/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib]
+    arg [-L/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib] ==> dir [/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib]
+    arg [-L/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib] ==> dir [/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib]
+    arg [-L/cm/shared/apps/cuda75/toolkit//lib64] ==> dir [/cm/shared/apps/cuda75/toolkit//lib64]
+    arg [-L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../..] ==> dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../..]
+    arg [CMakeFiles/cmTC_f6984.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib] ==> [/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17/lib]
+  collapse library dir [/cm/shared/apps/slurm/2.6.7/lib64/../lib64] ==> [/cm/shared/apps/slurm/2.6.7/lib64]
+  collapse library dir [/cm/shared/apps/cuda75/toolkit//lib64/../lib64] ==> [/cm/shared/apps/cuda75/toolkit/lib64]
+  collapse library dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1] ==> [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1]
+  collapse library dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64] ==> [/cm/shared/apps/gcc/4.8.1/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/cm/shared/apps/slurm/2.6.7/lib64/slurm] ==> [/cm/shared/apps/slurm/2.6.7/lib64/slurm]
+  collapse library dir [/cm/shared/apps/slurm/2.6.7/lib64] ==> [/cm/shared/apps/slurm/2.6.7/lib64]
+  collapse library dir [/cm/shared/apps/cudpp/cuda75/2.3//lib] ==> [/cm/shared/apps/cudpp/cuda75/2.3/lib]
+  collapse library dir [/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib] ==> [/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib]
+  collapse library dir [/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib] ==> [/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib]
+  collapse library dir [/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib] ==> [/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib]
+  collapse library dir [/cm/shared/apps/cuda75/toolkit//lib64] ==> [/cm/shared/apps/cuda75/toolkit/lib64]
+  collapse library dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../..] ==> [/cm/shared/apps/gcc/4.8.1/lib]
+  implicit libs: [c]
+  implicit dirs: [/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17/lib;/cm/shared/apps/slurm/2.6.7/lib64;/cm/shared/apps/cuda75/toolkit/lib64;/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1;/cm/shared/apps/gcc/4.8.1/lib64;/lib64;/usr/lib64;/cm/shared/apps/slurm/2.6.7/lib64/slurm;/cm/shared/apps/cudpp/cuda75/2.3/lib;/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib;/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib;/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib;/cm/shared/apps/gcc/4.8.1/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d6b33/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d6b33.dir/build.make CMakeFiles/cmTC_d6b33.dir/build
+gmake[1]: Entering directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6b33.dir/feature_tests.c.o
+/cm/shared/apps/gcc/4.8.1/bin/gcc    -std=c11 -o CMakeFiles/cmTC_d6b33.dir/feature_tests.c.o   -c /home/jhasbestan/Map_Serial/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d6b33
+/cm/shared/apps/cmake/gcc/64/3.5.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6b33.dir/link.txt --verbose=1
+/cm/shared/apps/gcc/4.8.1/bin/gcc      -L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib  CMakeFiles/cmTC_d6b33.dir/feature_tests.c.o  -o cmTC_d6b33 -rdynamic 
+gmake[1]: Leaving directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_08528/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_08528.dir/build.make CMakeFiles/cmTC_08528.dir/build
+gmake[1]: Entering directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08528.dir/feature_tests.c.o
+/cm/shared/apps/gcc/4.8.1/bin/gcc    -std=c99 -o CMakeFiles/cmTC_08528.dir/feature_tests.c.o   -c /home/jhasbestan/Map_Serial/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_08528
+/cm/shared/apps/cmake/gcc/64/3.5.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08528.dir/link.txt --verbose=1
+/cm/shared/apps/gcc/4.8.1/bin/gcc      -L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib  CMakeFiles/cmTC_08528.dir/feature_tests.c.o  -o cmTC_08528 -rdynamic 
+gmake[1]: Leaving directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_77489/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_77489.dir/build.make CMakeFiles/cmTC_77489.dir/build
+gmake[1]: Entering directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77489.dir/feature_tests.c.o
+/cm/shared/apps/gcc/4.8.1/bin/gcc    -std=c90 -o CMakeFiles/cmTC_77489.dir/feature_tests.c.o   -c /home/jhasbestan/Map_Serial/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_77489
+/cm/shared/apps/cmake/gcc/64/3.5.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77489.dir/link.txt --verbose=1
+/cm/shared/apps/gcc/4.8.1/bin/gcc      -L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib  CMakeFiles/cmTC_77489.dir/feature_tests.c.o  -o cmTC_77489 -rdynamic 
+gmake[1]: Leaving directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_dff62/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_dff62.dir/build.make CMakeFiles/cmTC_dff62.dir/build
+gmake[1]: Entering directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dff62.dir/testCXXCompiler.cxx.o
+/cm/shared/apps/gcc/4.8.1/bin/g++      -o CMakeFiles/cmTC_dff62.dir/testCXXCompiler.cxx.o -c /home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_dff62
+/cm/shared/apps/cmake/gcc/64/3.5.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dff62.dir/link.txt --verbose=1
+/cm/shared/apps/gcc/4.8.1/bin/g++       -L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib  CMakeFiles/cmTC_dff62.dir/testCXXCompiler.cxx.o  -o cmTC_dff62 -rdynamic 
+gmake[1]: Leaving directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_6f25a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_6f25a.dir/build.make CMakeFiles/cmTC_6f25a.dir/build
+gmake[1]: Entering directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6f25a.dir/CMakeCXXCompilerABI.cpp.o
+/cm/shared/apps/gcc/4.8.1/bin/g++      -o CMakeFiles/cmTC_6f25a.dir/CMakeCXXCompilerABI.cpp.o -c /cm/shared/apps/cmake/gcc/64/3.5.1/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_6f25a
+/cm/shared/apps/cmake/gcc/64/3.5.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f25a.dir/link.txt --verbose=1
+/cm/shared/apps/gcc/4.8.1/bin/g++       -L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib -v CMakeFiles/cmTC_6f25a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6f25a -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/cm/shared/apps/gcc/4.8.1/bin/g++
+COLLECT_LTO_WRAPPER=/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../gcc-4.8.1/configure --prefix=/cm/shared/apps/gcc/4.8.1 --enable-languages=c,c++,fortran --with-gmp-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-gmp --with-gmp-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-gmp --with-mpc-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpc/src --with-mpc-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpc/src/.libs --with-mpfr-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpfr/src --with-mpfr-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpfr/src/.libs
+Thread model: posix
+gcc version 4.8.1 (GCC) 
+COMPILER_PATH=/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/cm/shared/apps/slurm/2.6.7/lib64/../lib64/:/cm/shared/apps/cuda75/toolkit//lib64/../lib64/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cm/shared/apps/slurm/2.6.7/lib64/slurm/:/cm/shared/apps/slurm/2.6.7/lib64/:/cm/shared/apps/cudpp/cuda75/2.3//lib/:/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib/:/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib/:/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib/:/cm/shared/apps/cuda75/toolkit//lib64/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib' '-v' '-o' 'cmTC_6f25a' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6f25a /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtbegin.o -L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib -L/cm/shared/apps/slurm/2.6.7/lib64/../lib64 -L/cm/shared/apps/cuda75/toolkit//lib64/../lib64 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cm/shared/apps/slurm/2.6.7/lib64/slurm -L/cm/shared/apps/slurm/2.6.7/lib64 -L/cm/shared/apps/cudpp/cuda75/2.3//lib -L/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib -L/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib -L/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib -L/cm/shared/apps/cuda75/toolkit//lib64 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../.. CMakeFiles/cmTC_6f25a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_6f25a/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_6f25a.dir/build.make CMakeFiles/cmTC_6f25a.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_6f25a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/cm/shared/apps/gcc/4.8.1/bin/g++      -o CMakeFiles/cmTC_6f25a.dir/CMakeCXXCompilerABI.cpp.o -c /cm/shared/apps/cmake/gcc/64/3.5.1/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_6f25a]
+  ignore line: [/cm/shared/apps/cmake/gcc/64/3.5.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f25a.dir/link.txt --verbose=1]
+  ignore line: [/cm/shared/apps/gcc/4.8.1/bin/g++       -L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib -v CMakeFiles/cmTC_6f25a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6f25a -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/cm/shared/apps/gcc/4.8.1/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../gcc-4.8.1/configure --prefix=/cm/shared/apps/gcc/4.8.1 --enable-languages=c,c++,fortran --with-gmp-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-gmp --with-gmp-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-gmp --with-mpc-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpc/src --with-mpc-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpc/src/.libs --with-mpfr-include=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpfr/src --with-mpfr-lib=/usr/src/redhat/BUILD/gcc-4.8.1-obj/../gcc-4.8.1/our-mpfr/src/.libs]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 (GCC) ]
+  ignore line: [COMPILER_PATH=/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/cm/shared/apps/slurm/2.6.7/lib64/../lib64/:/cm/shared/apps/cuda75/toolkit//lib64/../lib64/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cm/shared/apps/slurm/2.6.7/lib64/slurm/:/cm/shared/apps/slurm/2.6.7/lib64/:/cm/shared/apps/cudpp/cuda75/2.3//lib/:/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib/:/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib/:/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib/:/cm/shared/apps/cuda75/toolkit//lib64/:/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib' '-v' '-o' 'cmTC_6f25a' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6f25a /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtbegin.o -L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib -L/cm/shared/apps/slurm/2.6.7/lib64/../lib64 -L/cm/shared/apps/cuda75/toolkit//lib64/../lib64 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cm/shared/apps/slurm/2.6.7/lib64/slurm -L/cm/shared/apps/slurm/2.6.7/lib64 -L/cm/shared/apps/cudpp/cuda75/2.3//lib -L/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib -L/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib -L/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib -L/cm/shared/apps/cuda75/toolkit//lib64 -L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../.. CMakeFiles/cmTC_6f25a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/cm/shared/apps/gcc/4.8.1/libexec/gcc/x86_64-unknown-linux-gnu/4.8.1/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6f25a] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtbegin.o] ==> ignore
+    arg [-L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib] ==> dir [/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib]
+    arg [-L/cm/shared/apps/slurm/2.6.7/lib64/../lib64] ==> dir [/cm/shared/apps/slurm/2.6.7/lib64/../lib64]
+    arg [-L/cm/shared/apps/cuda75/toolkit//lib64/../lib64] ==> dir [/cm/shared/apps/cuda75/toolkit//lib64/../lib64]
+    arg [-L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1] ==> dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1]
+    arg [-L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64] ==> dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/cm/shared/apps/slurm/2.6.7/lib64/slurm] ==> dir [/cm/shared/apps/slurm/2.6.7/lib64/slurm]
+    arg [-L/cm/shared/apps/slurm/2.6.7/lib64] ==> dir [/cm/shared/apps/slurm/2.6.7/lib64]
+    arg [-L/cm/shared/apps/cudpp/cuda75/2.3//lib] ==> dir [/cm/shared/apps/cudpp/cuda75/2.3//lib]
+    arg [-L/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib] ==> dir [/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib]
+    arg [-L/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib] ==> dir [/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib]
+    arg [-L/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib] ==> dir [/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib]
+    arg [-L/cm/shared/apps/cuda75/toolkit//lib64] ==> dir [/cm/shared/apps/cuda75/toolkit//lib64]
+    arg [-L/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../..] ==> dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../..]
+    arg [CMakeFiles/cmTC_6f25a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib] ==> [/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17/lib]
+  collapse library dir [/cm/shared/apps/slurm/2.6.7/lib64/../lib64] ==> [/cm/shared/apps/slurm/2.6.7/lib64]
+  collapse library dir [/cm/shared/apps/cuda75/toolkit//lib64/../lib64] ==> [/cm/shared/apps/cuda75/toolkit/lib64]
+  collapse library dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1] ==> [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1]
+  collapse library dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64] ==> [/cm/shared/apps/gcc/4.8.1/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/cm/shared/apps/slurm/2.6.7/lib64/slurm] ==> [/cm/shared/apps/slurm/2.6.7/lib64/slurm]
+  collapse library dir [/cm/shared/apps/slurm/2.6.7/lib64] ==> [/cm/shared/apps/slurm/2.6.7/lib64]
+  collapse library dir [/cm/shared/apps/cudpp/cuda75/2.3//lib] ==> [/cm/shared/apps/cudpp/cuda75/2.3/lib]
+  collapse library dir [/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib] ==> [/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib]
+  collapse library dir [/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib] ==> [/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib]
+  collapse library dir [/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib] ==> [/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib]
+  collapse library dir [/cm/shared/apps/cuda75/toolkit//lib64] ==> [/cm/shared/apps/cuda75/toolkit/lib64]
+  collapse library dir [/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../..] ==> [/cm/shared/apps/gcc/4.8.1/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17/lib;/cm/shared/apps/slurm/2.6.7/lib64;/cm/shared/apps/cuda75/toolkit/lib64;/cm/shared/apps/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1;/cm/shared/apps/gcc/4.8.1/lib64;/lib64;/usr/lib64;/cm/shared/apps/slurm/2.6.7/lib64/slurm;/cm/shared/apps/cudpp/cuda75/2.3/lib;/cm/shared/apps/zoltan/cuda75/openmpi-2.0.1/gcc-4.8.1/3.8.3/lib;/cm/shared/apps/parmetis/cuda75/openmpi-2.0.1/gcc-4.8.1/4.0.3/lib;/cm/shared/apps/openmpi/cuda75/gcc-4.8.1/2.0.1/lib;/cm/shared/apps/gcc/4.8.1/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_368d9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_368d9.dir/build.make CMakeFiles/cmTC_368d9.dir/build
+gmake[1]: Entering directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_368d9.dir/feature_tests.cxx.o
+/cm/shared/apps/gcc/4.8.1/bin/g++     -std=c++1y -o CMakeFiles/cmTC_368d9.dir/feature_tests.cxx.o -c /home/jhasbestan/Map_Serial/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_368d9
+/cm/shared/apps/cmake/gcc/64/3.5.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_368d9.dir/link.txt --verbose=1
+/cm/shared/apps/gcc/4.8.1/bin/g++       -L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib  CMakeFiles/cmTC_368d9.dir/feature_tests.cxx.o  -o cmTC_368d9 -rdynamic 
+gmake[1]: Leaving directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e6872/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e6872.dir/build.make CMakeFiles/cmTC_e6872.dir/build
+gmake[1]: Entering directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e6872.dir/feature_tests.cxx.o
+/cm/shared/apps/gcc/4.8.1/bin/g++     -std=c++11 -o CMakeFiles/cmTC_e6872.dir/feature_tests.cxx.o -c /home/jhasbestan/Map_Serial/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e6872
+/cm/shared/apps/cmake/gcc/64/3.5.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6872.dir/link.txt --verbose=1
+/cm/shared/apps/gcc/4.8.1/bin/g++       -L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib  CMakeFiles/cmTC_e6872.dir/feature_tests.cxx.o  -o cmTC_e6872 -rdynamic 
+gmake[1]: Leaving directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_24e82/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_24e82.dir/build.make CMakeFiles/cmTC_24e82.dir/build
+gmake[1]: Entering directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_24e82.dir/feature_tests.cxx.o
+/cm/shared/apps/gcc/4.8.1/bin/g++     -std=c++98 -o CMakeFiles/cmTC_24e82.dir/feature_tests.cxx.o -c /home/jhasbestan/Map_Serial/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_24e82
+/cm/shared/apps/cmake/gcc/64/3.5.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24e82.dir/link.txt --verbose=1
+/cm/shared/apps/gcc/4.8.1/bin/g++       -L/cm/shared/apps/hdf5/cuda75/openmpi-2.0.1/18.17//lib  CMakeFiles/cmTC_24e82.dir/feature_tests.cxx.o  -o cmTC_24e82 -rdynamic 
+gmake[1]: Leaving directory `/home/jhasbestan/Map_Serial/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

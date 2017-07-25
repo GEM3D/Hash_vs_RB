@@ -1,0 +1,393 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 96.18    254.91   254.91  6444985     0.00     0.00  __gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > > std::__find<__gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > >, std::bitset<64ul> >(__gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > >, __gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > >, std::bitset<64ul> const&, std::random_access_iterator_tag)
+  2.08    260.43     5.52  5851420     0.00     0.00  Tree<64ul, unsigned int>::level(std::bitset<64ul>, unsigned int*)
+  0.54    261.85     1.42  7531472     0.00     0.00  _GLOBAL__sub_I_main
+  0.32    262.70     0.85       12     0.07     2.99  Tree<64ul, unsigned int>::fourToOne()
+  0.25    263.36     0.66       19     0.03     0.03  std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, unsigned int*>, std::allocator<std::pair<std::bitset<64ul> const, unsigned int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned long, unsigned long const&)
+  0.25    264.02     0.66        1     0.66     0.67  Tree<64ul, unsigned int>::~Tree()
+  0.10    264.29     0.27       12     0.02    18.68  Tree<64ul, unsigned int>::pushToRefinelist(unsigned int)
+  0.09    264.54     0.25  1075924     0.00     0.00  Tree<64ul, unsigned int>::refine(std::bitset<64ul>)
+  0.06    264.70     0.16   471852     0.00     0.00  Tree<64ul, unsigned int>::enclosingBox(std::bitset<64ul>, double*)
+  0.04    264.81     0.11  7531469     0.00     0.00  std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, unsigned int*>, std::allocator<std::pair<std::bitset<64ul> const, unsigned int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<64ul> const, unsigned int*>, true>*)
+  0.04    264.92     0.11   471852     0.00     0.00  Tree<64ul, unsigned int>::convertCoordToMorton(double*, std::bitset<64ul>&)
+  0.02    264.97     0.05  3227745     0.00     0.00  Tree<64ul, unsigned int>::findFlipLevel(std::bitset<64ul>, unsigned int*, unsigned int*, unsigned int*)
+  0.01    265.00     0.03        1     0.03     0.04  readSTLGeom(int, char**, double**, int*, double const*)
+  0.00    265.01     0.01  3227721     0.00     0.00  Tree<64ul, unsigned int>::flipForNbr(std::bitset<64ul>*, unsigned int*, unsigned int*, unsigned int*)
+  0.00    265.02     0.01       12     0.00     3.28  Tree<64ul, unsigned int>::refineRefineList()
+  0.00    265.03     0.01        1     0.01     0.01  stl::parse_stl(std::string const&)
+  0.00    265.04     0.01        1     0.01     0.73  Tree<64ul, unsigned int>::convertStl2Morton(unsigned int, double*)
+  0.00    265.05     0.01        1     0.01     0.01  Tree<64ul, unsigned int>::begin()
+  0.00    265.05     0.00  7531470     0.00     0.00  Tree<64ul, unsigned int>::end()
+  0.00    265.05     0.00   763313     0.00     0.00  Tree<64ul, unsigned int>::addToList(std::bitset<64ul>)
+  0.00    265.05     0.00       41     0.00     0.00  void std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > >::_M_emplace_back_aux<std::bitset<64ul> const&>(std::bitset<64ul> const&&&)
+  0.00    265.05     0.00       20     0.00     0.00  _ZNSt6vectorIN3stl8triangleESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_
+  0.00    265.05     0.00       14     0.00     0.00  Tree<64ul, unsigned int>::size()
+  0.00    265.05     0.00        2     0.00     0.00  Tree<32ul, unsigned int>::end()
+  0.00    265.05     0.00        2     0.00     0.00  Tree<64ul, double>::end()
+  0.00    265.05     0.00        2     0.00     0.00  std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, double*>, std::allocator<std::pair<std::bitset<64ul> const, double*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<64ul> const, double*>, true>*)
+  0.00    265.05     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN3stllsERSoNS_5pointE
+  0.00    265.05     0.00        1     0.00     0.00  Tree<128ul, unsigned int>::reserve(unsigned int*)
+  0.00    265.05     0.00        1     0.00     0.00  Tree<32ul, unsigned int>::size()
+  0.00    265.05     0.00        1     0.00     0.00  Tree<32ul, unsigned int>::begin()
+  0.00    265.05     0.00        1     0.00     0.00  Tree<32ul, unsigned int>::Tree(double*, double*, unsigned int, unsigned int, unsigned int)
+  0.00    265.05     0.00        1     0.00     0.00  Tree<32ul, unsigned int>::~Tree()
+  0.00    265.05     0.00        1     0.00     0.00  Tree<64ul, double>::begin()
+  0.00    265.05     0.00        1     0.00     0.00  Tree<64ul, double>::Tree(double*, double*, unsigned int, unsigned int, unsigned int)
+  0.00    265.05     0.00        1     0.00     0.00  Tree<64ul, double>::~Tree()
+  0.00    265.05     0.00        1     0.00     0.00  Tree<64ul, unsigned int>::Tree(double*, double*, unsigned int, unsigned int, unsigned int)
+  0.00    265.05     0.00        1     0.00     0.00  Voxel<32ul, double>::setLevel(unsigned int*)
+  0.00    265.05     0.00        1     0.00     0.00  Hdf5Xmf<48ul, unsigned int>::writeH(Tree<48ul, unsigned int>&, unsigned int)
+  0.00    265.05     0.00        1     0.00     0.00  Hdf5XmfV<64ul, unsigned int>::write(Voxel<64ul, unsigned int>&)
+  0.00    265.05     0.00        1     0.00     0.00  std::_Hashtable<std::bitset<16ul>, std::pair<std::bitset<16ul> const, int*>, std::allocator<std::pair<std::bitset<16ul> const, int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<16ul> >, morton_hash<16ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<16ul> const, int*>, true>*)
+  0.00    265.05     0.00        1     0.00     0.00  std::_Hashtable<std::bitset<16ul>, std::pair<std::bitset<16ul> const, int*>, std::allocator<std::pair<std::bitset<16ul> const, int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<16ul> >, morton_hash<16ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::clear()
+  0.00    265.05     0.00        1     0.00     0.00  std::_Hashtable<std::bitset<32ul>, std::pair<std::bitset<32ul> const, unsigned int*>, std::allocator<std::pair<std::bitset<32ul> const, unsigned int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<32ul> >, morton_hash<32ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<32ul> const, unsigned int*>, true>*)
+  0.00    265.05     0.00        1     0.00     0.00  std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, double*>, std::allocator<std::pair<std::bitset<64ul> const, double*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::clear()
+  0.00    265.05     0.00        1     0.00     0.00  std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, 16ul>(std::basic_ostream<char, std::char_traits<char> >&, std::bitset<16ul> const&)
+  0.00    265.05     0.00        1     0.00     0.00  std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, 64ul>(std::basic_ostream<char, std::char_traits<char> >&, std::bitset<64ul> const&)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.00% of 265.05 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.00  265.05                 main [1]
+                0.27  223.95      12/12          Tree<64ul, unsigned int>::pushToRefinelist(unsigned int) [3]
+                0.01   39.38      12/12          Tree<64ul, unsigned int>::refineRefineList() [4]
+                0.01    0.72       1/1           Tree<64ul, unsigned int>::convertStl2Morton(unsigned int, double*) [10]
+                0.66    0.01       1/1           Tree<64ul, unsigned int>::~Tree() [11]
+                0.03    0.01       1/1           readSTLGeom(int, char**, double**, int*, double const*) [16]
+                0.00    0.00       1/1075924     Tree<64ul, unsigned int>::refine(std::bitset<64ul>) [7]
+                0.00    0.00       1/1           Tree<64ul, double>::Tree(double*, double*, unsigned int, unsigned int, unsigned int) [21]
+                0.00    0.00       1/1           Tree<64ul, unsigned int>::Tree(double*, double*, unsigned int, unsigned int, unsigned int) [22]
+                0.00    0.00       1/1           Tree<32ul, unsigned int>::Tree(double*, double*, unsigned int, unsigned int, unsigned int) [20]
+                0.00    0.00      14/14          Tree<64ul, unsigned int>::size() [34]
+                0.00    0.00       1/1           std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, 64ul>(std::basic_ostream<char, std::char_traits<char> >&, std::bitset<64ul> const&) [53]
+                0.00    0.00       1/1           std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, 16ul>(std::basic_ostream<char, std::char_traits<char> >&, std::bitset<16ul> const&) [52]
+                0.00    0.00       1/1           std::_Hashtable<std::bitset<16ul>, std::pair<std::bitset<16ul> const, int*>, std::allocator<std::pair<std::bitset<16ul> const, int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<16ul> >, morton_hash<16ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<16ul> const, int*>, true>*) [48]
+                0.00    0.00       1/1           Tree<32ul, unsigned int>::size() [40]
+                0.00    0.00       1/1           Tree<32ul, unsigned int>::~Tree() [42]
+                0.00    0.00       1/1           Tree<64ul, double>::~Tree() [44]
+                0.00    0.00       1/1           std::_Hashtable<std::bitset<16ul>, std::pair<std::bitset<16ul> const, int*>, std::allocator<std::pair<std::bitset<16ul> const, int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<16ul> >, morton_hash<16ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::clear() [49]
+                0.00    0.00       1/1           std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, double*>, std::allocator<std::pair<std::bitset<64ul> const, double*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::clear() [51]
+                0.00    0.00       1/2           std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, double*>, std::allocator<std::pair<std::bitset<64ul> const, double*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<64ul> const, double*>, true>*) [37]
+-----------------------------------------------
+               30.96    0.00  782761/6444985     Tree<64ul, unsigned int>::fourToOne() [5]
+              223.95    0.00 5662224/6444985     Tree<64ul, unsigned int>::pushToRefinelist(unsigned int) [3]
+[2]     96.2  254.91    0.00 6444985         __gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > > std::__find<__gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > >, std::bitset<64ul> >(__gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > >, __gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > >, std::bitset<64ul> const&, std::random_access_iterator_tag) [2]
+-----------------------------------------------
+                0.27  223.95      12/12          main [1]
+[3]     84.6    0.27  223.95      12         Tree<64ul, unsigned int>::pushToRefinelist(unsigned int) [3]
+              223.95    0.00 5662224/6444985     __gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > > std::__find<__gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > >, std::bitset<64ul> >(__gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > >, __gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > >, std::bitset<64ul> const&, std::random_access_iterator_tag) [2]
+                0.00    0.00  763313/763313      Tree<64ul, unsigned int>::addToList(std::bitset<64ul>) [31]
+-----------------------------------------------
+                0.01   39.38      12/12          main [1]
+[4]     14.9    0.01   39.38      12         Tree<64ul, unsigned int>::refineRefineList() [4]
+                0.85   35.08      12/12          Tree<64ul, unsigned int>::fourToOne() [5]
+                0.25    3.21 1075923/1075924     Tree<64ul, unsigned int>::refine(std::bitset<64ul>) [7]
+-----------------------------------------------
+                0.85   35.08      12/12          Tree<64ul, unsigned int>::refineRefineList() [4]
+[5]     13.6    0.85   35.08      12         Tree<64ul, unsigned int>::fourToOne() [5]
+               30.96    0.00  782761/6444985     __gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > > std::__find<__gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > >, std::bitset<64ul> >(__gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > >, __gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > >, std::bitset<64ul> const&, std::random_access_iterator_tag) [2]
+                4.06    0.00 4303644/5851420     Tree<64ul, unsigned int>::level(std::bitset<64ul>, unsigned int*) [6]
+                0.05    0.00 3227745/3227745     Tree<64ul, unsigned int>::findFlipLevel(std::bitset<64ul>, unsigned int*, unsigned int*, unsigned int*) [15]
+                0.01    0.00 3227721/3227721     Tree<64ul, unsigned int>::flipForNbr(std::bitset<64ul>*, unsigned int*, unsigned int*, unsigned int*) [17]
+                0.00    0.00       6/41          void std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > >::_M_emplace_back_aux<std::bitset<64ul> const&>(std::bitset<64ul> const&&&) [32]
+-----------------------------------------------
+                0.45    0.00  471852/5851420     Tree<64ul, unsigned int>::enclosingBox(std::bitset<64ul>, double*) [13]
+                1.02    0.00 1075924/5851420     Tree<64ul, unsigned int>::refine(std::bitset<64ul>) [7]
+                4.06    0.00 4303644/5851420     Tree<64ul, unsigned int>::fourToOne() [5]
+[6]      2.1    5.52    0.00 5851420         Tree<64ul, unsigned int>::level(std::bitset<64ul>, unsigned int*) [6]
+-----------------------------------------------
+                0.00    0.00       1/1075924     main [1]
+                0.25    3.21 1075923/1075924     Tree<64ul, unsigned int>::refineRefineList() [4]
+[7]      1.3    0.25    3.21 1075924         Tree<64ul, unsigned int>::refine(std::bitset<64ul>) [7]
+                1.42    0.77 7531468/7531472     _GLOBAL__sub_I_main [8]
+                1.02    0.00 1075924/5851420     Tree<64ul, unsigned int>::level(std::bitset<64ul>, unsigned int*) [6]
+-----------------------------------------------
+                0.00    0.00       1/7531472     Tree<64ul, unsigned int>::Tree(double*, double*, unsigned int, unsigned int, unsigned int) [22]
+                0.00    0.00       1/7531472     Tree<64ul, double>::Tree(double*, double*, unsigned int, unsigned int, unsigned int) [21]
+                0.00    0.00       1/7531472     Tree<32ul, unsigned int>::Tree(double*, double*, unsigned int, unsigned int, unsigned int) [20]
+                0.00    0.00       1/7531472     __do_global_ctors_aux [23]
+                1.42    0.77 7531468/7531472     Tree<64ul, unsigned int>::refine(std::bitset<64ul>) [7]
+[8]      0.8    1.42    0.77 7531472         _GLOBAL__sub_I_main [8]
+                0.11    0.66 7531469/7531469     std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, unsigned int*>, std::allocator<std::pair<std::bitset<64ul> const, unsigned int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<64ul> const, unsigned int*>, true>*) [9]
+                0.00    0.00       1/2           std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, double*>, std::allocator<std::pair<std::bitset<64ul> const, double*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<64ul> const, double*>, true>*) [37]
+                0.00    0.00       1/1           std::_Hashtable<std::bitset<32ul>, std::pair<std::bitset<32ul> const, unsigned int*>, std::allocator<std::pair<std::bitset<32ul> const, unsigned int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<32ul> >, morton_hash<32ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<32ul> const, unsigned int*>, true>*) [50]
+-----------------------------------------------
+                0.11    0.66 7531469/7531469     _GLOBAL__sub_I_main [8]
+[9]      0.3    0.11    0.66 7531469         std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, unsigned int*>, std::allocator<std::pair<std::bitset<64ul> const, unsigned int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<64ul> const, unsigned int*>, true>*) [9]
+                0.66    0.00      19/19          std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, unsigned int*>, std::allocator<std::pair<std::bitset<64ul> const, unsigned int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned long, unsigned long const&) [12]
+-----------------------------------------------
+                0.01    0.72       1/1           main [1]
+[10]     0.3    0.01    0.72       1         Tree<64ul, unsigned int>::convertStl2Morton(unsigned int, double*) [10]
+                0.16    0.45  471852/471852      Tree<64ul, unsigned int>::enclosingBox(std::bitset<64ul>, double*) [13]
+                0.11    0.00  471852/471852      Tree<64ul, unsigned int>::convertCoordToMorton(double*, std::bitset<64ul>&) [14]
+                0.00    0.00      20/41          void std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > >::_M_emplace_back_aux<std::bitset<64ul> const&>(std::bitset<64ul> const&&&) [32]
+-----------------------------------------------
+                0.66    0.01       1/1           main [1]
+[11]     0.3    0.66    0.01       1         Tree<64ul, unsigned int>::~Tree() [11]
+                0.01    0.00       1/1           Tree<64ul, unsigned int>::begin() [19]
+                0.00    0.00 7531470/7531470     Tree<64ul, unsigned int>::end() [30]
+-----------------------------------------------
+                0.66    0.00      19/19          std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, unsigned int*>, std::allocator<std::pair<std::bitset<64ul> const, unsigned int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<64ul> const, unsigned int*>, true>*) [9]
+[12]     0.2    0.66    0.00      19         std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, unsigned int*>, std::allocator<std::pair<std::bitset<64ul> const, unsigned int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned long, unsigned long const&) [12]
+-----------------------------------------------
+                0.16    0.45  471852/471852      Tree<64ul, unsigned int>::convertStl2Morton(unsigned int, double*) [10]
+[13]     0.2    0.16    0.45  471852         Tree<64ul, unsigned int>::enclosingBox(std::bitset<64ul>, double*) [13]
+                0.45    0.00  471852/5851420     Tree<64ul, unsigned int>::level(std::bitset<64ul>, unsigned int*) [6]
+-----------------------------------------------
+                0.11    0.00  471852/471852      Tree<64ul, unsigned int>::convertStl2Morton(unsigned int, double*) [10]
+[14]     0.0    0.11    0.00  471852         Tree<64ul, unsigned int>::convertCoordToMorton(double*, std::bitset<64ul>&) [14]
+-----------------------------------------------
+                0.05    0.00 3227745/3227745     Tree<64ul, unsigned int>::fourToOne() [5]
+[15]     0.0    0.05    0.00 3227745         Tree<64ul, unsigned int>::findFlipLevel(std::bitset<64ul>, unsigned int*, unsigned int*, unsigned int*) [15]
+-----------------------------------------------
+                0.03    0.01       1/1           main [1]
+[16]     0.0    0.03    0.01       1         readSTLGeom(int, char**, double**, int*, double const*) [16]
+                0.01    0.00       1/1           stl::parse_stl(std::string const&) [18]
+-----------------------------------------------
+                0.01    0.00 3227721/3227721     Tree<64ul, unsigned int>::fourToOne() [5]
+[17]     0.0    0.01    0.00 3227721         Tree<64ul, unsigned int>::flipForNbr(std::bitset<64ul>*, unsigned int*, unsigned int*, unsigned int*) [17]
+-----------------------------------------------
+                0.01    0.00       1/1           readSTLGeom(int, char**, double**, int*, double const*) [16]
+[18]     0.0    0.01    0.00       1         stl::parse_stl(std::string const&) [18]
+                0.00    0.00      20/20          _ZNSt6vectorIN3stl8triangleESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_ [33]
+-----------------------------------------------
+                0.01    0.00       1/1           Tree<64ul, unsigned int>::~Tree() [11]
+[19]     0.0    0.01    0.00       1         Tree<64ul, unsigned int>::begin() [19]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[20]     0.0    0.00    0.00       1         Tree<32ul, unsigned int>::Tree(double*, double*, unsigned int, unsigned int, unsigned int) [20]
+                0.00    0.00       1/7531472     _GLOBAL__sub_I_main [8]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[21]     0.0    0.00    0.00       1         Tree<64ul, double>::Tree(double*, double*, unsigned int, unsigned int, unsigned int) [21]
+                0.00    0.00       1/7531472     _GLOBAL__sub_I_main [8]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[22]     0.0    0.00    0.00       1         Tree<64ul, unsigned int>::Tree(double*, double*, unsigned int, unsigned int, unsigned int) [22]
+                0.00    0.00       1/7531472     _GLOBAL__sub_I_main [8]
+-----------------------------------------------
+                                                 <spontaneous>
+[23]     0.0    0.00    0.00                 __do_global_ctors_aux [23]
+                0.00    0.00       1/7531472     _GLOBAL__sub_I_main [8]
+                0.00    0.00       1/1           Voxel<32ul, double>::setLevel(unsigned int*) [45]
+                0.00    0.00       1/1           Hdf5Xmf<48ul, unsigned int>::writeH(Tree<48ul, unsigned int>&, unsigned int) [46]
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN3stllsERSoNS_5pointE [38]
+                0.00    0.00       1/1           Tree<128ul, unsigned int>::reserve(unsigned int*) [39]
+                0.00    0.00       1/1           Hdf5XmfV<64ul, unsigned int>::write(Voxel<64ul, unsigned int>&) [47]
+-----------------------------------------------
+                0.00    0.00 7531470/7531470     Tree<64ul, unsigned int>::~Tree() [11]
+[30]     0.0    0.00    0.00 7531470         Tree<64ul, unsigned int>::end() [30]
+-----------------------------------------------
+                0.00    0.00  763313/763313      Tree<64ul, unsigned int>::pushToRefinelist(unsigned int) [3]
+[31]     0.0    0.00    0.00  763313         Tree<64ul, unsigned int>::addToList(std::bitset<64ul>) [31]
+                0.00    0.00      15/41          void std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > >::_M_emplace_back_aux<std::bitset<64ul> const&>(std::bitset<64ul> const&&&) [32]
+-----------------------------------------------
+                0.00    0.00       6/41          Tree<64ul, unsigned int>::fourToOne() [5]
+                0.00    0.00      15/41          Tree<64ul, unsigned int>::addToList(std::bitset<64ul>) [31]
+                0.00    0.00      20/41          Tree<64ul, unsigned int>::convertStl2Morton(unsigned int, double*) [10]
+[32]     0.0    0.00    0.00      41         void std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > >::_M_emplace_back_aux<std::bitset<64ul> const&>(std::bitset<64ul> const&&&) [32]
+-----------------------------------------------
+                0.00    0.00      20/20          stl::parse_stl(std::string const&) [18]
+[33]     0.0    0.00    0.00      20         _ZNSt6vectorIN3stl8triangleESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_ [33]
+-----------------------------------------------
+                0.00    0.00      14/14          main [1]
+[34]     0.0    0.00    0.00      14         Tree<64ul, unsigned int>::size() [34]
+-----------------------------------------------
+                0.00    0.00       2/2           Tree<32ul, unsigned int>::~Tree() [42]
+[35]     0.0    0.00    0.00       2         Tree<32ul, unsigned int>::end() [35]
+-----------------------------------------------
+                0.00    0.00       2/2           Tree<64ul, double>::~Tree() [44]
+[36]     0.0    0.00    0.00       2         Tree<64ul, double>::end() [36]
+-----------------------------------------------
+                0.00    0.00       1/2           main [1]
+                0.00    0.00       1/2           _GLOBAL__sub_I_main [8]
+[37]     0.0    0.00    0.00       2         std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, double*>, std::allocator<std::pair<std::bitset<64ul> const, double*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<64ul> const, double*>, true>*) [37]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [23]
+[38]     0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN3stllsERSoNS_5pointE [38]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [23]
+[39]     0.0    0.00    0.00       1         Tree<128ul, unsigned int>::reserve(unsigned int*) [39]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[40]     0.0    0.00    0.00       1         Tree<32ul, unsigned int>::size() [40]
+-----------------------------------------------
+                0.00    0.00       1/1           Tree<32ul, unsigned int>::~Tree() [42]
+[41]     0.0    0.00    0.00       1         Tree<32ul, unsigned int>::begin() [41]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[42]     0.0    0.00    0.00       1         Tree<32ul, unsigned int>::~Tree() [42]
+                0.00    0.00       2/2           Tree<32ul, unsigned int>::end() [35]
+                0.00    0.00       1/1           Tree<32ul, unsigned int>::begin() [41]
+-----------------------------------------------
+                0.00    0.00       1/1           Tree<64ul, double>::~Tree() [44]
+[43]     0.0    0.00    0.00       1         Tree<64ul, double>::begin() [43]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[44]     0.0    0.00    0.00       1         Tree<64ul, double>::~Tree() [44]
+                0.00    0.00       2/2           Tree<64ul, double>::end() [36]
+                0.00    0.00       1/1           Tree<64ul, double>::begin() [43]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [23]
+[45]     0.0    0.00    0.00       1         Voxel<32ul, double>::setLevel(unsigned int*) [45]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [23]
+[46]     0.0    0.00    0.00       1         Hdf5Xmf<48ul, unsigned int>::writeH(Tree<48ul, unsigned int>&, unsigned int) [46]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [23]
+[47]     0.0    0.00    0.00       1         Hdf5XmfV<64ul, unsigned int>::write(Voxel<64ul, unsigned int>&) [47]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[48]     0.0    0.00    0.00       1         std::_Hashtable<std::bitset<16ul>, std::pair<std::bitset<16ul> const, int*>, std::allocator<std::pair<std::bitset<16ul> const, int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<16ul> >, morton_hash<16ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<16ul> const, int*>, true>*) [48]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[49]     0.0    0.00    0.00       1         std::_Hashtable<std::bitset<16ul>, std::pair<std::bitset<16ul> const, int*>, std::allocator<std::pair<std::bitset<16ul> const, int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<16ul> >, morton_hash<16ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::clear() [49]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I_main [8]
+[50]     0.0    0.00    0.00       1         std::_Hashtable<std::bitset<32ul>, std::pair<std::bitset<32ul> const, unsigned int*>, std::allocator<std::pair<std::bitset<32ul> const, unsigned int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<32ul> >, morton_hash<32ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<32ul> const, unsigned int*>, true>*) [50]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[51]     0.0    0.00    0.00       1         std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, double*>, std::allocator<std::pair<std::bitset<64ul> const, double*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::clear() [51]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[52]     0.0    0.00    0.00       1         std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, 16ul>(std::basic_ostream<char, std::char_traits<char> >&, std::bitset<16ul> const&) [52]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[53]     0.0    0.00    0.00       1         std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, 64ul>(std::basic_ostream<char, std::char_traits<char> >&, std::bitset<64ul> const&) [53]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+
+Index by function name
+
+  [38] _GLOBAL__sub_I__ZN3stllsERSoNS_5pointE [13] Tree<64ul, unsigned int>::enclosingBox(std::bitset<64ul>, double*) [45] Voxel<32ul, double>::setLevel(unsigned int*)
+   [8] _GLOBAL__sub_I_main    [15] Tree<64ul, unsigned int>::findFlipLevel(std::bitset<64ul>, unsigned int*, unsigned int*, unsigned int*) [46] Hdf5Xmf<48ul, unsigned int>::writeH(Tree<48ul, unsigned int>&, unsigned int)
+  [16] readSTLGeom(int, char**, double**, int*, double const*) [3] Tree<64ul, unsigned int>::pushToRefinelist(unsigned int) [47] Hdf5XmfV<64ul, unsigned int>::write(Voxel<64ul, unsigned int>&)
+  [18] stl::parse_stl(std::string const&) [4] Tree<64ul, unsigned int>::refineRefineList() [48] std::_Hashtable<std::bitset<16ul>, std::pair<std::bitset<16ul> const, int*>, std::allocator<std::pair<std::bitset<16ul> const, int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<16ul> >, morton_hash<16ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<16ul> const, int*>, true>*)
+  [39] Tree<128ul, unsigned int>::reserve(unsigned int*) [10] Tree<64ul, unsigned int>::convertStl2Morton(unsigned int, double*) [49] std::_Hashtable<std::bitset<16ul>, std::pair<std::bitset<16ul> const, int*>, std::allocator<std::pair<std::bitset<16ul> const, int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<16ul> >, morton_hash<16ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::clear()
+  [35] Tree<32ul, unsigned int>::end() [14] Tree<64ul, unsigned int>::convertCoordToMorton(double*, std::bitset<64ul>&) [50] std::_Hashtable<std::bitset<32ul>, std::pair<std::bitset<32ul> const, unsigned int*>, std::allocator<std::pair<std::bitset<32ul> const, unsigned int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<32ul> >, morton_hash<32ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<32ul> const, unsigned int*>, true>*)
+  [40] Tree<32ul, unsigned int>::size() [30] Tree<64ul, unsigned int>::end() [37] std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, double*>, std::allocator<std::pair<std::bitset<64ul> const, double*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<64ul> const, double*>, true>*)
+  [41] Tree<32ul, unsigned int>::begin() [34] Tree<64ul, unsigned int>::size() [51] std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, double*>, std::allocator<std::pair<std::bitset<64ul> const, double*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::clear()
+  [20] Tree<32ul, unsigned int>::Tree(double*, double*, unsigned int, unsigned int, unsigned int) [19] Tree<64ul, unsigned int>::begin() [9] std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, unsigned int*>, std::allocator<std::pair<std::bitset<64ul> const, unsigned int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::bitset<64ul> const, unsigned int*>, true>*)
+  [42] Tree<32ul, unsigned int>::~Tree() [6] Tree<64ul, unsigned int>::level(std::bitset<64ul>, unsigned int*) [12] std::_Hashtable<std::bitset<64ul>, std::pair<std::bitset<64ul> const, unsigned int*>, std::allocator<std::pair<std::bitset<64ul> const, unsigned int*> >, std::__detail::_Select1st, std::equal_to<std::bitset<64ul> >, morton_hash<64ul>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned long, unsigned long const&)
+  [36] Tree<64ul, double>::end() [7] Tree<64ul, unsigned int>::refine(std::bitset<64ul>) [33] _ZNSt6vectorIN3stl8triangleESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_
+  [43] Tree<64ul, double>::begin() [31] Tree<64ul, unsigned int>::addToList(std::bitset<64ul>) [32] void std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > >::_M_emplace_back_aux<std::bitset<64ul> const&>(std::bitset<64ul> const&&&)
+  [21] Tree<64ul, double>::Tree(double*, double*, unsigned int, unsigned int, unsigned int) [5] Tree<64ul, unsigned int>::fourToOne() [2] __gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > > std::__find<__gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > >, std::bitset<64ul> >(__gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > >, __gnu_cxx::__normal_iterator<std::bitset<64ul>*, std::vector<std::bitset<64ul>, std::allocator<std::bitset<64ul> > > >, std::bitset<64ul> const&, std::random_access_iterator_tag)
+  [44] Tree<64ul, double>::~Tree() [22] Tree<64ul, unsigned int>::Tree(double*, double*, unsigned int, unsigned int, unsigned int) [52] std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, 16ul>(std::basic_ostream<char, std::char_traits<char> >&, std::bitset<16ul> const&)
+  [17] Tree<64ul, unsigned int>::flipForNbr(std::bitset<64ul>*, unsigned int*, unsigned int*, unsigned int*) [11] Tree<64ul, unsigned int>::~Tree() [53] std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, 64ul>(std::basic_ostream<char, std::char_traits<char> >&, std::bitset<64ul> const&)
