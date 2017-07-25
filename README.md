@@ -1,4 +1,4 @@
-# Serial 2:1 balanced Octree mesh generation for embedded boundary simulations
+# rbAMR: red-black tree based  Adaptive Mesh Refinement for embedded boundary simulations
      
 
 # In header 
