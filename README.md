@@ -1,4 +1,4 @@
-# 2:1 balanced Octree mesh generation 
+# Serial 2:1 balanced Octree mesh generation for embedded boundary simulations
      
 
 # In header 
