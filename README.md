@@ -1,4 +1,4 @@
-# rebl AMR: red-black tree based  Adaptive Mesh Refinement for immersed boundary simulations
+# rebl-AMR: serial version of the red-black tree based adaptive mesh refinement around immersed geometries
      
 
 # In header.h 
